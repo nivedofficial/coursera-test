@@ -1,0 +1,114 @@
+
+
+
+* {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+h1 {
+    
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 175%;
+  
+  margin-bottom : 40px;
+  
+}
+
+.box{
+    background-color: grey;
+    overflow: none;
+    border: 3px solid black;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.highlight{
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 25px;;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.sectiontitle {
+
+    font-size: 125%;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    position: relative;
+    margin-top: -2px;
+    margin-right: -2px;
+    width: 150px;
+    padding-top: 3px;
+    height: 30px;
+    border: 2px solid black
+}
+
+.name1{
+    
+    background-color: rosybrown;
+    
+    
+}
+
+.name2{
+    background-color: rgb(211, 82, 82);
+    color: white;
+    
+}
+
+.name3{
+    background-color: rgb(215, 215, 72);
+}
+
+
+
+
+@media (min-width: 992px) {
+  .col-dt-4 {
+    float: left;
+   
+  }
+  
+  .col-dt-4 {
+    width: 33.33%;
+  }
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+   .col-tb-6, .col-tb-12 {
+    float: left;
+
+  }
+  
+  .col-tb-6 {
+    width: 50%;
+  }
+ 
+  .col-tb-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px){
+     .col-mb-12 {
+     float: left;
+     
+   }
+   
+
+   .col-mb-12 {
+     width: 100%;
+   }
+ }
+ 
